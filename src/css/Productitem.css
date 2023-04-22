@@ -1,0 +1,74 @@
+/*  cart container*/
+
+.cart-container {
+    width: 100%;
+    height: 15rem;
+    border: 2px solid rgb(21, 25, 141);
+    position: relative;
+    margin: 0.1rem 0 0 0;
+    box-sizing: border-box;
+  }
+  /* cart heading */
+  .cart-heading {
+    width: 25rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-weight: 200;
+  }
+  /* cart img */
+  .cart-img img {
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    left: 1rem;
+    bottom: 0.2rem;
+  }
+  /* cart value price and rating */
+  .cart-value {
+    width: 5.5rem;
+    height: 6rem;
+    color: rgb(147, 26, 181);
+    position: absolute;
+    left: 14rem;
+    bottom: 3rem;
+    font-weight: 600;
+  }
+  /* buttons */
+  .btns {
+    width: 7rem;
+    height: 1.5rem;
+    position: absolute;
+    right: 7rem;
+    bottom: 2rem;
+    margin: 0.2rem;
+  }
+  /* romove button */
+  .remove{
+    color: rgb(230, 82, 82);
+  }
+  .remove:hover{
+  background-color:black;
+  margin: 0.2rem;
+  }
+  /* edit button */
+  .editbtn{
+    color: midnightblue;
+    font-weight: 500;
+  }
+  .editbtn:hover{
+    background-color: aquamarine;
+    margin: 0.2rem;
+  }
+  /* descretion container */
+  .description-container{
+    width: 25rem;
+    height: 5rem;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    right: 1.2rem;
+    top: 1.2rem;
+    display: flex;
+    align-items: center;
+  }
